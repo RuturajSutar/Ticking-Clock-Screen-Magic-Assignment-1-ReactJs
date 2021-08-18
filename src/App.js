@@ -1,11 +1,16 @@
 import React from "react";
+import ClassComponent from "./components/ClassComponent";
 import FunctionComponent from "./components/FunctionComponent";
 
 
 function App() {
+
   
   return (
-    <FunctionComponent></FunctionComponent>
+    <div>
+      <FunctionComponent></FunctionComponent>
+      <ClassComponent></ClassComponent>
+    </div>
   );
 }
 
